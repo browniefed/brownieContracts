@@ -4,16 +4,10 @@ body {
 #main {
 	display:none;
 }
-section, p, article, li, .full, .page{
-	overflow:visible;
-	height:100%;
+
+.edit {
+	display:none;
 }
 .page {
-	page-break-before:always;
 	page-break-after:always;
-}
-.article {
-	margin:0;
-	overflow:visible;
-	padding:0;
 }

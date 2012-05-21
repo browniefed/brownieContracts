@@ -92,6 +92,7 @@ header p {
 	width:100%;
 	margin:0 auto;
 	height:100%;
+	display:none;
 }
 
 .article .full {
@@ -129,8 +130,9 @@ ol {
 	background: #FEFED8;
 	padding: 2px;
 }
-.edit:hover {
-	background:#fcfc96;
+
+.page {
+	padding: 0 0 15px 0;
 }
 .sig_data  ul{
 	display:inline-block;
@@ -138,8 +140,12 @@ ol {
 	width:100%;
 	border-bottom:1px solid #000;	
 	height:50px;
-	margin: 0 0 10px 0;
+	margin: 0 0 15px 0;
+	padding: 0 0 15px 0;
 	zoom:1;
+}
+.sig_data ul::after {
+	content: '';
 }
 .sig_data li {
 	width:33%;
@@ -163,6 +169,9 @@ ol {
 	padding:0;
 	margin:0;
 	background:none;
+}
+.edit:hover, .edited:hover {
+	background:#fcfc96;
 }
 .article .editing input {
 	border:none;
