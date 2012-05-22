@@ -17,7 +17,7 @@ header h1 {
 	margin:0 0 20px 0;
 	color:#444;
 }
-header p {
+header p, .instructions{
 	line-height:1.5em;
 	font-family: 'Open Sans', sans-serif;
 	font-size:1em;
@@ -72,7 +72,7 @@ header p {
 .contract_list div > a {
 	float:right;
 	display:block;
-	padding:8px 20px 10px;
+	padding:10px 20px;
 	background:#E9E9E9;
 	color:#333;
 	text-decoration:none;
@@ -104,7 +104,7 @@ header p {
 }
 .article p, .article ol, .article li, .article h1{
 	margin: 5px 0;
-	line-height:1.2em;
+	line-height:1.5em;
 }
 .article h1 {
 	font-size:1.1em;
@@ -125,6 +125,7 @@ header p {
 }
 ol {
 	list-style-type:decimal;
+	padding: 0 0 0 20px;
 }
 .edit {
 	background: #FEFED8;
@@ -187,4 +188,12 @@ ol {
 -webkit-column-count: 2;
 -webkit-column-gap: 1em;
 -webkit-column-rule: 1px solid black;
+}
+.instructions {
+	background:#F7F7F7;
+	padding:15px;
+}
+.instructions h3 {
+	font-size:1.2em;
+	font-weight:600;
 }

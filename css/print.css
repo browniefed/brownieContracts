@@ -11,3 +11,14 @@ body {
 .page {
 	page-break-after:always;
 }
+
+.instructions {
+	display:none;
+}
+
+ol {
+	list-style-type:decimal;
+}
+ol li {
+	list-style-type:decimal;
+}
