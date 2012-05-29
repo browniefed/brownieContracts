@@ -197,3 +197,18 @@ ol {
 	font-size:1.2em;
 	font-weight:600;
 }
+
+.line_headers li {
+	float:left;
+	width:25%;
+	display:block;
+}
+
+.line {
+	width:100%;
+	padding: 40px 0 0 0;
+	border-bottom: 1px solid #000;
+}
+.line:first-child{
+	padding:0;
+}
